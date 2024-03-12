@@ -38,8 +38,8 @@ def shoes():
 @app.route('/sports/')
 def sports():
     sports_list = [
-        {'name': 'Форма', 'price': 78519.99},
-        {'name': 'Тренажер', 'price': 3439.99},
+        {'name': 'Форма', 'price': 3439.99},
+        {'name': 'Тренажер', 'price': 78519.99},
         {'name': 'Гантеля', 'price': 479.99}
     ]
     return render_template('sports.html', list=sports_list)
