@@ -5,16 +5,26 @@
     <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
+<<<<<<< HEAD
           <option value="E501" />
           <option value="W605" />
           <option value="W292" />
           <option value="E115" />
+=======
+          <option value="E305" />
+          <option value="W605" />
+          <option value="E211" />
+          <option value="E128" />
+          <option value="E501" />
+          <option value="E266" />
+>>>>>>> 88d7ba8 (save)
         </list>
       </option>
     </inspection_tool>
     <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
       <option name="ignoredErrors">
         <list>
+<<<<<<< HEAD
           <option value="N801" />
         </list>
       </option>
@@ -23,10 +33,17 @@
       <option name="ignoredNames">
         <list>
           <option value="exit" />
+=======
+          <option value="N802" />
+>>>>>>> 88d7ba8 (save)
         </list>
       </option>
     </inspection_tool>
     <inspection_tool class="PyShadowingNamesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+<<<<<<< HEAD
+=======
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+>>>>>>> 88d7ba8 (save)
     <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="ignoredIdentifiers">
         <list>
@@ -34,6 +51,10 @@
         </list>
       </option>
     </inspection_tool>
+<<<<<<< HEAD
+=======
+    <inspection_tool class="ReassignedToPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
+>>>>>>> 88d7ba8 (save)
     <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
       <option name="processCode" value="true" />
       <option name="processLiterals" value="true" />
