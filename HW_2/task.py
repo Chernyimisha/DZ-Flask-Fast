@@ -26,7 +26,7 @@ def index():
     return render_template("username_form.html")
 
 
-@app.route('/welcom/<string:name>/', methods=['GET', 'POST'])
+@app.route('/welcom/<string:name>/')
 def welcom(name):
     return render_template("welcome_page.html", name=name)
 
