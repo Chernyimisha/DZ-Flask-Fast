@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/DZ Flask, Fast.iml" filepath="$PROJECT_DIR$/.idea/DZ Flask, Fast.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/ DZ-Flask-Fast.iml" filepath="$PROJECT_DIR$/.idea/ DZ-Flask-Fast.iml" />
+>>>>>>> 88d7ba8 (save)
     </modules>
   </component>
 </project>
