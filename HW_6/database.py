@@ -40,8 +40,8 @@ engine = sqlalchemy.create_engine(DATABASE_URL, connect_args={"check_same_thread
 metadata.create_all(engine)
 
 
-def count_rows(table_class):
-    with engine.connect() as connect:
-        result = connect.scalar(sqlalchemy.select(sqlalchemy.func.max(table_class.c.id)))
-        return result
+# def count_rows(table_class):
+#     with engine.connect() as connect:
+#         result = connect.scalar(sqlalchemy.select(sqlalchemy.func.max(table_class.c.id)))
+#         return result
 
